@@ -21,7 +21,7 @@ if calculate:
        elif operation=="/":
 
         if Num2!=0:           
-            result=Num1-Num2
+            result=Num1/Num2
         else:
             result = "❌ Cannot divide by zero"
        st.success(f"Result: {result}")
